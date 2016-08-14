@@ -76,7 +76,8 @@ html,body{
     text-align: center;
 }
 .about-us-text{
-	padding: 10px 15px;
+	padding: 20px 15px;
+	font-size: 18px;
 }
 .btn-download{
 	background-color: #fed136;
@@ -160,9 +161,8 @@ html,body{
 	padding:0px;
 }
 .map{
-	max-width: 800px;
+	max-width: 80%;
 	margin: 0 auto;
-	background-color: #555;
 }
 .new_html_code {
       width:150px;
