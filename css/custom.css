@@ -1,0 +1,196 @@
+html,body{
+	height: 100%;
+	margin: 0;
+}
+.wrapper{
+	width: 100%;
+	background-color: #222;
+}
+#main-slider{
+	margin-top: 100px;
+}
+#testimonial-slider{
+	padding-top: 100px;
+}
+/* Nav bar */
+.yellow{
+	color: #fed136 !important;
+}
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+	margin-top: -20px;
+}
+.navbar-shrink{
+	padding:25px 0px !important;
+}
+.navbar-default .nav li a:focus{
+	background-color: #fed136;
+	color: #fff;
+	border-radius: 4px;
+
+}
+.active-link{
+	background-color: #fed136;
+	color: #fff;
+	border-radius: 4px;
+}
+/**Nav bar ends*/
+/*Slider goes here*/
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 80%;
+      margin: auto;
+      /*border:2px solid #fed136;*/
+  }
+  .carousel-indicators .active{
+  	background-color: #fed136;
+  	border:1px solid #fed136;
+  }
+/*slider ends*/
+#banner{
+	max-width: 1300px;
+	margin:100px auto 0px auto;
+	background: url('../img/banner/able 2.jpg') no-repeat;
+	background-size: cover;
+	/*border: 2px solid #fed136;*/
+}
+#mobile-app{
+	max-width: 1300px;
+	margin:5px auto;
+	background: url('../img/banner/mobile-app.jpg') no-repeat;
+	background-size: cover;
+	padding: 40px 0px;
+}
+.wrapper-mobile-app{
+	width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+.content-area{
+	max-width: 750px;
+	padding: 40px 0px;
+	margin: 0 auto;
+}
+.content-text{
+	font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+.about-us-text{
+	padding: 10px 15px;
+}
+.btn-download{
+	background-color: #fed136;
+    color: #fff !important;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.btn-download:hover{
+	text-decoration: none;
+}
+#our-services{
+	max-width: 1300px;
+	margin:0px auto;
+	background-color: #fff;
+	/*border: 2px solid #fed136;*/
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+#about-us{
+	max-width: 1300px;
+	margin:0px auto;
+	background-color: #fff;
+	/*border: 2px solid #fed136;*/
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+.heading{
+	background-color: #222;
+	padding: 10px 0px 10px 0px;
+	margin-bottom: 40px;
+	border-bottom: 3px solid #fed136;
+	border-top: 3px solid #fed136;
+}
+.heading h3{
+	text-transform: uppercase;
+}
+.nav-tabs > li > a{
+	color: #000;
+}
+.tab-pane{
+	padding: 0.8em;
+	border-right: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	min-height: 400px;
+}
+.space-md-top{
+	margin-top: 40px;
+}
+#testimonial{
+	padding: 0px;
+	background: url('../img/banner/taxi-interior.png') no-repeat;
+	background-size: cover;
+	max-width: 1300px;
+	margin: 0 auto;
+	/*border:2px solid #fed136;*/
+	min-height: 600px;
+}
+
+/*Collapsable Area*/
+.panel{
+	border:1px solid #222 !important;
+}
+.collapsable-heading {
+    background-color: #222 !important;
+    color: #fed136 !important;
+    font-family: Arial;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 0px !important;
+    border: 1px solid #222;
+    text-align: center;
+    font-size: 18px;
+}
+/*Collapsable area closed*/
+#contact{
+	max-width: 1300px;
+	margin: 0 auto;
+	padding:0px;
+}
+.map{
+	max-width: 800px;
+	margin: 0 auto;
+	background-color: #555;
+}
+.new_html_code {
+      width:150px;
+      height:100px;
+      min-width:150px;
+      min-height:100px;
+      max-width:900px;
+      max-height:400px;
+      overflow:hidden;
+      display:block;
+      border:1px solid red;
+}
+#map-section{
+	padding: 40px 0px;
+}
+.contact-info{
+	color: #fff;
+	max-width: 800px;
+	padding: 60px 0px 40px 0px;
+	margin: 0 auto;
+}
+.heading-info{
+	color: #fed136;
+	font-size: 18px;
+
+}
+/*Footer starts*/
+.copyright{
+	color: #fed136;
+}
+/*Footer ends*/
