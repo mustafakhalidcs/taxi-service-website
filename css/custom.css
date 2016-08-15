@@ -8,6 +8,8 @@ html,body{
 }
 #main-slider{
 	margin-top: 100px;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 #testimonial-slider{
 	padding-top: 100px;
@@ -28,6 +30,12 @@ html,body{
 	border-radius: 4px;
 
 }
+.navbar-default .nav li a.yellow:focus{
+
+	color: #fff !important;
+	
+
+}
 .active-link{
 	background-color: #fed136;
 	color: #fff;
@@ -37,7 +45,7 @@ html,body{
 /*Slider goes here*/
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-      width: 80%;
+      width: 100%;
       margin: auto;
       /*border:2px solid #fed136;*/
   }
